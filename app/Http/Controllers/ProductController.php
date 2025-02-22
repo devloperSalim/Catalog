@@ -101,7 +101,8 @@ class ProductController extends Controller
     }
     public function welcome()
     {
-        $products = Product::paginate(4);
+        $products = Product::paginate(4
+    );
         return view('welcome', compact('products'));
     }
 }

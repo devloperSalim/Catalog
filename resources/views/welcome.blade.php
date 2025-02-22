@@ -43,6 +43,9 @@
                                 <p class="text-sm text-gray-400">{{ $product->price }} DH</p>
                             </div>
                         </div>
+
+
+
                         <!-- WhatsApp Order Button -->
                         <a href="https://wa.me/212621531141?text=Bonjour%2C%20je%20veux%20commander%20{{ urlencode($product->name) }}%20pour%20{{ $product->price }}DH"
                             class="inline-flex items-center px-4 py-2 text-sm font-medium text-white bg-green-500 rounded-lg hover:bg-green-600 focus:ring-2 focus:ring-green-400">
